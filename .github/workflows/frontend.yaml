@@ -42,4 +42,4 @@ jobs:
           script: |
             cd /home/ubuntu/Mean-DevOps-Assignment/
             docker compose pull frontend
-            docker compose up -d frontend
+            docker compose up -d --force-recreate frontend
