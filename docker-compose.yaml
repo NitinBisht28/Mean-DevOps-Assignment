@@ -7,7 +7,6 @@ services:
 
   backend:
     image: drakeexe/mean-backend:latest
-    container_name: backend
     depends_on:
       - mongo
     expose:
@@ -15,7 +14,6 @@ services:
 
   frontend:
     image: drakeexe/mean-frontend:latest
-    container_name: frontend
     depends_on:
       - backend
 
