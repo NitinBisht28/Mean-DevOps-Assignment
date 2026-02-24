@@ -212,16 +212,6 @@ The application supports full CRUD operations on tutorials.
 
 ---
 
-## 🧠 Future Improvements
-
-* HTTPS with SSL (Certbot)
-* Blue-Green or Rolling Deployments
-* Kubernetes migration
-* Monitoring & logging
-* Auto-scaling
-
----
-
 ## 🏁 Conclusion
 
 This project demonstrates:
