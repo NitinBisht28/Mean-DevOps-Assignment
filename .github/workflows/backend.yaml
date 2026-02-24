@@ -6,9 +6,11 @@ on:
       - main
     paths:
       - "backend/**"
-      - ".github/workflows/backend.yml"
+      - ".github/workflows/backend.yaml"
+      - "docker-compose.yaml"
+      - "nginx/**"
   workflow_dispatch:
-    
+
 jobs:
   build-push-deploy:
     runs-on: ubuntu-latest
